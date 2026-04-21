@@ -11,7 +11,7 @@ minetest.register_chatcommand("placemodel", {
         if not player then return false, "Player not found" end
         local pos = vector.round(player:get_pos())
         pos.y = pos.y + 1
-        local path = minetest.get_modpath("BlenderMesh").."/models/"..param
+        local path = minetest.get_modpath("blendermesh").."/models/"..param
         local ok, model = pcall(dofile, path)
         if not ok or type(model) ~= "table" then
             return false, "Failed to load model: "..tostring(model)
