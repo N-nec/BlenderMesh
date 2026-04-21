@@ -24,5 +24,4 @@ minetest.register_chatcommand("placemodel", {
         end
         return true, "Placed "..count.." nodes from "..param
     end
-}
-)
+})
