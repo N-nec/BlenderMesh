@@ -1,3 +1,5 @@
+# OLD - USES LUA - LIMITED TO 65000 NODES --- USE THE MESH_EXPORTER
+
 # BlenderMesh
 
 A Minetest mod for placing schematic models exported from Blender
